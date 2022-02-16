@@ -18,6 +18,10 @@ class Galery extends CI_Controller
 
 	public function upload()
 	{
+		$this->load->model('auth_model');
+		if(!$this->auth_model->current_user()){
+			redirect('auth/login');
+		}
 		$data = [
 			"galery" => $this->Galery_model->getRows()
 		];

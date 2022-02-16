@@ -13,14 +13,18 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ms-auto">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					<a class="nav-link <?= $this->router->fetch_class() == 'home' ? 'active' : '';
+					?>" aria-current="page" href="<?= site_url('/') ?>">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="profil.html">Profil</a>
+					<a class="nav-link <?= $this->uri->segment(2) == 'profile' ? 'active' : '';
+					?>" href="<?= site_url('/home/profile') ?>">Profil</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="./galeri.html">Galeri</a>
+					<a class="nav-link <?= $this->router->fetch_class() == 'galery' ? 'active' : '';
+					?>" href="<?= site_url('/galery') ?>">Galeri</a>
 				</li>
+
 			</ul>
 		</div>
 	</div>
