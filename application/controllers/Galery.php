@@ -32,7 +32,7 @@ class Galery extends CI_Controller
 	public function insert()
 	{
 		if (!empty($_FILES)){
-			$uploadPath = "uploads/";
+			$uploadPath = "/uploads";
 
 			$array = explode(".",$_FILES["file"]["name"]);
 			$fileName = uniqid("pt") . "." . end($array);
