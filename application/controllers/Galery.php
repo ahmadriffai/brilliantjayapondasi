@@ -58,6 +58,7 @@ class Galery extends CI_Controller
 				$insert = $this->Galery_model->insert($uploadData);
 			}
 
+			return $this->load->view("galery");
 
 		}else{
 			echo "kosong";
