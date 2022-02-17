@@ -142,19 +142,19 @@
 
 <script src="<?= base_url('assets/js/dropzone.min.js') ?>"></script>
 
-
-<script>
-	Dropzone.autoDiscover = false;
-
-	var myDropzone = new Dropzone(".dropzone", {
-		autoProcessQueue: false,
-		parallelUploads: 10
-	})
-
-	$("#submitAll").click(function (){
-		myDropzone.processQueue();
-	});
-</script>
+<!---->
+<!--<script>-->
+<!--	Dropzone.autoDiscover = false;-->
+<!---->
+<!--	var myDropzone = new Dropzone(".dropzone", {-->
+<!--		autoProcessQueue: false,-->
+<!--		parallelUploads: 10-->
+<!--	})-->
+<!---->
+<!--	$("#submitAll").click(function (){-->
+<!--		myDropzone.processQueue();-->
+<!--	});-->
+<!--</script>-->
 
 
 </body>
