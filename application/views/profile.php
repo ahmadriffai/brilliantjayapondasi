@@ -8,17 +8,18 @@
 			<div class="col-lg-12 text-center">
 				<h3>VISI</h3>
 				<p>
-					KAMI SENANTIASA BERUSAHA MEMBERIKAN KONTRIBUSI DALAM PEMBANGUNAN DAN MEMBERIKAN KESUKSESAN BAGI MITRA KERJA KAMI.
+					Kami senantiasa berusaha meberikan kontribusi dalam pengembangan dan memberikan kesuksesan bagi mitra kerja kami
 				</p>
 			</div>
 		</div>
-		<div class="row mt-5">
+		<div class="row mt-2">
 			<div class="col-lg-12">
 				<div class="col-lg-12 text-center">
 					<h3>MISI</h3>
 					<p>
-						SELALU MELAYANI MITRA KERJA DENGAN BAIK, MENJALIN KEMITRAAN YANG KUAT SERTA MEMBERIKAN HASIL YANG MAKSIMAL DAN BERKUALITAS.
+						Selalu melayane mitra kerja dengan baik, menjalin kemitraan yang kuat serta memberikan hasil yang maksimak dan berkualitas
 					</p>
+
 				</div>
 			</div>
 		</div>
@@ -38,16 +39,16 @@
 		<div class="section3-item">
 			<div class="row">
 				<div class="col-lg-6">
-					<img src="./assets/img/banner-3.jpg" class="card-img-top" alt="...">
+					<img src="<?= base_url('assets/img/banner-3.jpg') ?>" class="card-img-top" alt="...">
 				</div>
 				<div class="col-lg-6">
-					<img src="./assets/img/banner-2.jpg" class="card-img-top" alt="...">
+					<img src="<?= base_url('assets/img/banner-2.jpg') ?>" class="card-img-top" alt="...">
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12 p-lg- 5">
-				Pt. Brilliant jaya pondasi, di dirikan oleh bapak marto susanto dan resmikan pada 16 september 2020. Pt. Brilliant jaya pondasi berkomitmen untuk berperan aktif menyumbangkan tenaga dan pikiran berupa pelayanan jasa pelaksanaan konstruksi sebagai rekanan bagi pihak pemerintah maupun swasta. Pt brilliant jaya pondasi adalah sebuah perusahaan yang bergerak di bidang konstruksi. Kami didukung oleh tim yang solid yang memiliki pengalaman pekerjaan dibidangnya dan anagement yang sangat baik, serta ditunjang dengan peralatan yang memadai dan moderen. Pt. Brilliant jaya pondasi lebih terfokus pada pondasi bored pile. Dari mulai pengeboran, fabrikasi besi, pengecoran, dll
+			<div class="col-lg-12 p-lg-5 text-center">
+				PT. Brilliant Jaya Pondasi, di dirikan oleh bapak marto susanto dan resmikan pada 16 september 2020. PT. Brilliant Jaya Pondasi berkomitmen untuk berperan aktif menyumbangkan tenaga dan pikiran berupa pelayanan jasa pelaksanaan konstruksi sebagai rekanan bagi pihak pemerintah maupun swasta. PT Brilliant Jaya Pondasi adalah sebuah perusahaan yang bergerak di bidang konstruksi. Kami didukung oleh tim yang solid yang memiliki pengalaman pekerjaan dibidangnya dan anagement yang sangat baik, serta ditunjang dengan peralatan yang memadai dan moderen. PT. Brilliant Jaya Pondasi lebih terfokus pada pondasi bored pile. Dari mulai pengeboran, fabrikasi besi, pengecoran, dll
 			</div>
 		</div>
 </section>

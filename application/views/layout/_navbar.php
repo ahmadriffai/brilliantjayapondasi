@@ -13,7 +13,7 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ms-auto">
 				<li class="nav-item">
-					<a class="nav-link <?= $this->uri->segment(2) == '' ? 'active' : '';
+					<a class="nav-link <?= $this->uri->segment(1) == '' ? 'active' : '';
 					?>" aria-current="page" href="<?= site_url('/') ?>">Home</a>
 				</li>
 				<li class="nav-item">
