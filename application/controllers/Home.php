@@ -8,4 +8,7 @@ class Home extends CI_Controller
 			"title" => "Landing Page"
 		]);
 	}
+	public function profile(){
+		return $this->load->view("profile");
+	}
 }

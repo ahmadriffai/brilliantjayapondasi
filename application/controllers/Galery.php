@@ -49,7 +49,7 @@ class Galery extends CI_Controller
 			$this->upload->initialize($config);
 
 
-			if ($this->upload->do_upload("file")){
+			if ($this->upload->do_upload("files")){
 				$fileData = $this->upload->data();
 
 				$uploadData["url"] = $url;
@@ -63,4 +63,5 @@ class Galery extends CI_Controller
 			echo "kosong";
 		}
 	}
+
 }

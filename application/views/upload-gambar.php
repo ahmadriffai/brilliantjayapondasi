@@ -153,7 +153,6 @@
 
 	$("#submitAll").click(function (){
 		myDropzone.processQueue();
-		window.setInterval('refresh()', 10);
 	});
 </script>
 
